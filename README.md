@@ -1,4 +1,4 @@
-# 4-Models-of-ML-Algorithm-for-Customer-Behavior-ProyekDicodingML
+# Four-Models-of-ML-Algorithm-for-Customer-Behavior-ProyekDicodingML
 # Proyek Tugas Akhir 
 
 ## Setup Environment - Anaconda Navigator - Jupyter Notebook
