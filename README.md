@@ -42,3 +42,11 @@ pip install sklearn
   - **Difference** antara training dan testing score adalah yang terbesar (**0.0051**) dibandingkan model lain, menunjukkan bahwa model sedikit **overfitting** pada training data.
   - **Recall pada kelas 1** (0.9856) lebih rendah dibandingkan Precision (1.0000), yang dapat berarti model tidak menangkap semua instance dari kelas 1 dengan sempurna.
 
+##### Precision atau Recall rendah Pada model tertentu 
+- Semua model menunjukkan **Precision** dan **Recall** yang sangat tinggi di semua kelas, dengan sedikit penurunan pada:
+  - **Decision Tree (Kelas 1):** Recall lebih rendah (0.9856), yang dapat memengaruhi kemampuan model dalam menangkap semua instance dari kelas tersebut.
+##### Apakah model mengalami overfitting atau underfitting?
+Saya mengambil 3 model saja, berikut adalah rinciannya:
+- **Random Forest:** Tidak overfitting maupun underfitting (Training dan Testing Score sangat mirip).
+- **KNN:** Tidak overfitting maupun underfitting (Difference sangat kecil, 0.0019).
+- **Decision Tree:** Mengalami sedikit **overfitting** karena **Training Score** sempurna (1.0000) sementara Testing Score sedikit lebih rendah (0.9949) dengan **Difference 0.0051**.
